@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class adapterRevView {
+class adapterRecView {
     class adapterRecView (private val listWayang: ArrayList<wayang>) : RecyclerView.Adapter<adapterRecView.ListViewHolder> () {
         inner class ListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
             var _namaWayang = itemView.findViewById<TextView>(R.id.namaWayang)
